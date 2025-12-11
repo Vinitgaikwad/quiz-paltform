@@ -18,7 +18,8 @@ export async function loginInUser(data: LoginInput) {
         const findUser = await UserModel.findOne({ email: data.email });
 
         if (findUser) {
-            return signJwt({ email: findUser.email, _id: findUser._id.toString() });
+            const token = signJwt({ email: findUser.email, _id: findUser._id.toString() });
+            return token;
         }
 
         throw new Error("User not found");

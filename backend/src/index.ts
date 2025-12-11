@@ -3,8 +3,6 @@ import cors from "cors"
 import dotenv from 'dotenv'
 import * as dbConnection from "./db/mongoose.db"
 import authRouter from "./modules/auth/auth.routes"
-import { validate } from "./middlewares/validate"
-import { loginSchema, registerSchema } from "./modules/auth/auth.schema"
 const app = express();
 
 const StartServer = async () => {

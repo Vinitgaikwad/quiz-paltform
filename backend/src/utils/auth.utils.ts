@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv'
 import type { jwtObj } from '../types/auth.types';
 
-dotenv.config({ path: '../config/.env' });
+dotenv.config({ path: './src/config/.env' });
 
 export function signJwt(obj: jwtObj) {
 

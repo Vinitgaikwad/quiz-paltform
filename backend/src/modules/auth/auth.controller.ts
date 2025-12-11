@@ -34,5 +34,3 @@ export async function registerHandler(req: Request, res: Response) {
         });
     }
 }
-
-// body, queryParams, header
