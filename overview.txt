@@ -3,18 +3,14 @@ Prj Scope > Quiz Online
     /sign-in
     /sign-up
     /me
-2. User Dashboard (cart, shop list, add)
-    /get-list
-    /filter
     
-3. Order Page
-    /confirm
-
-4. Paymnet Page
-    /payment
-
-5. Delivery Page
-    /track-order
+2. User Dashboard 
+    /tests
+    /go-to-test
+    
+3. Test Page
+    /results
+    /past-tests
 
 Admin : 
 -- Add / Remove items
